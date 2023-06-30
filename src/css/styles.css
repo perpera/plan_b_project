@@ -4,22 +4,33 @@
   | default @import url()
   |============================
 */
+
+/** GEN-VAR */
+@import url('./gen-var.css');
+
+/** MN + RESET */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+
+/** HEADER */
 @import url('./header.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/** HERO */
+@import url('./hero.css');
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+/** HOW IT WORKS */
+@import url('./how-it-works.css');
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/** VEGETABLES */
+@import url('./vegetables.css');
+
+/** WE WILL CALL YOU */
+@import url('./we-will-call-you.css');
+
+/** FOOTER */
+@import url('./footer.css');
+
+/** MOB-MENU */
+@import url('./mob-menu.css');
+
+/** MODAL */
+@import url('./modal.css');
