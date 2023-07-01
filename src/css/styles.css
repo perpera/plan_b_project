@@ -5,6 +5,9 @@
   |============================
 */
 
+/** FONTS */
+@import url('./fonts.css');
+
 /** GEN-VAR */
 @import url('./gen-var.css');
 

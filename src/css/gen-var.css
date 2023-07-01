@@ -1,11 +1,20 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --main-text-color: #141414;
+  --form-text-color: #c1bdbd;
+  --modal-form-color: rgba(20, 20, 20, 0.5);
+  --white-text-color: #ffffff;
+  --background-dark-color: #a1c487;
+  --background-light-color: #eaf7e5;
+  --background-secondary-color: #faf3e7;
+  --btn-background-color: #fc8a11;
+
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: var(--main-text-color);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
