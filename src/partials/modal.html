@@ -1,0 +1,154 @@
+<div class="modal is-hidden" data-modal>
+  <button type="button" class="modal-close-btn" data-modal-close>
+    <svg class="modal-close-btn-icon" width="24" height="24">
+      <use href="../img/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <h1 class="modal-form-header">Your order</h1>
+  <ul class="modal-cards-list">
+    <li class="modal-card">
+      <div class="modal-form-checkbox-wrapper">
+        <input
+          id="user-choise"
+          type="checkbox"
+          name="user-choise"
+          class="modal-form-check visually-hidden"
+          value="true"
+        />
+        <label for="user-choise" class="modal-form-check-desc">
+          <span class="modal-form-fake-checkbox">
+            <svg class="modal-form-fake-checkbox-icon" width="8" height="8">
+              <use href="../img/icons.svg#icon-pick"></use>
+            </svg>
+          </span>
+          <span class="modal-card-text"
+            ><h2 class="modal-card-header">Cabbage basket</h2>
+            <p class="modal-card-describtion">Plant</p></span
+          >
+
+          <img
+            srcset="
+              ../img/cabbage-img-mob-1x.png 1x,
+              ../img/cabbage-img-mob-1x.png 2x
+            "
+            class="modal-card-img"
+            src="../img/cabbage-img-mob-1x.png"
+            alt="cabbage-basket"
+            width="94px;"
+            height="78px"
+          />
+        </label>
+      </div>
+    </li>
+
+    <li class="modal-card">
+      <div class="modal-form-checkbox-wrapper">
+        <input
+          id="user-choise"
+          type="checkbox"
+          name="user-choise"
+          class="modal-form-check visually-hidden"
+          value="true"
+        />
+        <label for="user-choise" class="modal-form-check-desc">
+          <span class="modal-form-fake-checkbox">
+            <svg class="modal-form-fake-checkbox-icon" width="8" height="8">
+              <use href="../img/icons.svg#icon-pick"></use>
+            </svg>
+          </span>
+          <span class="modal-card-text"
+            ><h2 class="modal-card-header">Tomato basket</h2>
+            <p class="modal-card-describtion">Plant</p></span
+          >
+
+          <img
+            srcset="
+              ../img/tomato-basket-img-mob-1x.png 1x,
+              ../img/tomato-basket-img-mob-2x.png 2x
+            "
+            class="modal-card-img"
+            src="../img/tomato-basket-img-mob-1x.png"
+            alt="cabbage-basket"
+            width="94px;"
+            height="78px"
+          />
+        </label>
+      </div>
+    </li>
+    <li class="modal-card">
+      <div class="modal-form-checkbox-wrapper">
+        <input
+          id="user-choise"
+          type="checkbox"
+          name="user-choise"
+          class="modal-form-check visually-hidden"
+          value="true"
+        />
+        <label for="user-choise" class="modal-form-check-desc">
+          <span class="modal-form-fake-checkbox">
+            <svg class="modal-form-fake-checkbox-icon" width="8" height="8">
+              <use href="../img/icons.svg#icon-pick"></use>
+            </svg>
+          </span>
+          <span class="modal-card-text"
+            ><h2 class="modal-card-header">Vegetables basket</h2>
+            <p class="modal-card-describtion">Plant</p></span
+          >
+
+          <img
+            srcset="
+              ../img/vegetables-img-mob-1x.png 1x,
+              ../img/vegetables-img-mob-2x.png 2x
+            "
+            class="modal-card-img"
+            src="../img/vegetables-img-mob-1x.png"
+            alt="cabbage-basket"
+            width="94px;"
+            height="78px"
+          />
+        </label>
+      </div>
+    </li>
+  </ul>
+
+  <form class="modal-form">
+    <input
+      id="user-name"
+      type="text"
+      name="user-name"
+      placeholder="Enter full name.."
+      class="modal-form-input"
+      required
+    />
+
+    <input
+      id="user-email"
+      placeholder="Enter email.."
+      type="email"
+      name="user-email"
+      class="modal-form-input"
+      required
+    />
+
+    <input
+      id="user-card"
+      placeholder="Enter card.."
+      name="user-card"
+      class="modal-form-input"
+      required
+    />
+
+    <textarea
+      id="user-comment"
+      placeholder="Enter comments.."
+      name="user-comment"
+      class="modal-form-comment"
+      placeholder="Text input"
+    ></textarea>
+    <button class="modal-form-submit" type="submit">Submit</button>
+  </form>
+</div>
+
+<script src="./js/modal.js"></script>
+<script src="./js/order.js"></script>
