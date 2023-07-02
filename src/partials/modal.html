@@ -5,18 +5,18 @@
     </svg>
   </button>
 
-  <h1 class="modal-form-header">Your order</h1>
+  <h2 class="modal-form-header">Your order</h2>
   <ul class="modal-cards-list">
     <li class="modal-card">
       <div class="modal-form-checkbox-wrapper">
         <input
-          id="user-choise"
+          id="user-choise-cabbage"
           type="checkbox"
           name="user-choise"
           class="modal-form-check visually-hidden"
-          value="true"
+          value="cabbage"
         />
-        <label for="user-choise" class="modal-form-check-desc">
+        <label for="user-choise-cabbage" class="modal-form-check-desc">
           <span class="modal-form-fake-checkbox">
             <svg class="modal-form-fake-checkbox-icon" width="8" height="8">
               <use href="../img/icons.svg#icon-pick"></use>
@@ -45,13 +45,13 @@
     <li class="modal-card">
       <div class="modal-form-checkbox-wrapper">
         <input
-          id="user-choise"
+          id="user-choise-tomatoes"
           type="checkbox"
           name="user-choise"
           class="modal-form-check visually-hidden"
-          value="true"
+          value="tomatoes"
         />
-        <label for="user-choise" class="modal-form-check-desc">
+        <label for="user-choise-tomatoes" class="modal-form-check-desc">
           <span class="modal-form-fake-checkbox">
             <svg class="modal-form-fake-checkbox-icon" width="8" height="8">
               <use href="../img/icons.svg#icon-pick"></use>
@@ -79,13 +79,13 @@
     <li class="modal-card">
       <div class="modal-form-checkbox-wrapper">
         <input
-          id="user-choise"
+          id="user-choise-vegetables"
           type="checkbox"
           name="user-choise"
           class="modal-form-check visually-hidden"
-          value="true"
+          value="vegetables"
         />
-        <label for="user-choise" class="modal-form-check-desc">
+        <label for="user-choise-vegetables" class="modal-form-check-desc">
           <span class="modal-form-fake-checkbox">
             <svg class="modal-form-fake-checkbox-icon" width="8" height="8">
               <use href="../img/icons.svg#icon-pick"></use>
@@ -119,6 +119,8 @@
       name="user-name"
       placeholder="Enter full name.."
       class="modal-form-input"
+      minlength="2"
+      pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
       required
     />
 
@@ -128,6 +130,7 @@
       type="email"
       name="user-email"
       class="modal-form-input"
+      minlength="4"
       required
     />
 
@@ -136,6 +139,8 @@
       placeholder="Enter card.."
       name="user-card"
       class="modal-form-input"
+      pattern="^[0-9]+$"
+      minlength="9"
       required
     />
 
@@ -144,6 +149,7 @@
       placeholder="Enter comments.."
       name="user-comment"
       class="modal-form-comment"
+      minlength="2"
       placeholder="Text input"
     ></textarea>
     <button class="modal-form-submit" type="submit">Submit</button>
