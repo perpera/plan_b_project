@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background-color: #eaf7e5;
+  background-color: var(--background-light-color);
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -28,7 +28,7 @@
 }
 .logo-svg:focus,
 .logo-svg:hover{
-fill: var(--background-dark-color);
+fill: var(--logo-color);
 }
 .logo-footer {
   font-size: 14px;
