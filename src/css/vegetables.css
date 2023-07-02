@@ -13,7 +13,6 @@
 
   .container {
     padding: 0 20px;
-
   }
 
   .vegetables {
@@ -21,7 +20,6 @@
     padding-top: 80px;
     justify-content: center;
     align-items: center;
-
   }
 
   .vegetables-topic {
@@ -101,10 +99,9 @@
     margin-top: 22px;
   }
 
-  .redish {
+  .radish {
     display: none;
   }
-
 
   .button-div {
     width: 65px;
