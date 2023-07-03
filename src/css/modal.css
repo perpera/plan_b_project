@@ -185,7 +185,7 @@
   letter-spacing: -0.04em;
   padding: 14px 24px;
   border-radius: 20px;
-  border: 1px solid rgba(20, 20, 20, 0.3);
+  border: 1px solid var(--modal-form-color);
   resize: none;
 }
 .modal-form-comment::placeholder {
