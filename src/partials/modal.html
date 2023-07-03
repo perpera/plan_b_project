@@ -11,6 +11,7 @@
       <div class="modal-form-checkbox-wrapper">
         <input
           id="user-choise-cabbage"
+          checked
           type="checkbox"
           name="user-choise"
           class="modal-form-check visually-hidden"
@@ -120,7 +121,8 @@
       placeholder="Enter full name.."
       class="modal-form-input"
       minlength="2"
-      pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+      maxlength="50"
+      pattern="^(\w\w+)\s(\w+)$"
       required
     />
 
@@ -131,6 +133,7 @@
       name="user-email"
       class="modal-form-input"
       minlength="4"
+      maxlength="50"
       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
       required
     />
@@ -138,9 +141,10 @@
     <input
       id="user-card"
       placeholder="Enter card.."
+      type="number"
       name="user-card"
       class="modal-form-input"
-      pattern="^[0-9]+$"
+      pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$"
       minlength="9"
       required
     />
