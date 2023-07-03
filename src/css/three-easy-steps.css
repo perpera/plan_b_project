@@ -1,0 +1,78 @@
+.how-it-works {}
+
+.order-instruction {
+    margin: 80px 20px;
+    background-color: var(--background-secondary-color);
+    background-image: url(../img/background.png);
+    border-radius: 40px;
+}
+
+.order-instruction-header {
+    color: var(--main-text-color);
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    padding: 40px 20px;
+}
+
+.order-instruction-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 21px;
+    margin: 0 40px 20px 20px;
+    align-items: center;
+}
+
+
+.order-instruction-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+
+    color: var(--main-text-color);
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+}
+
+.order-instruction-text {
+    text-align: justify;
+}
+
+ul {
+    counter-reset: myCounter;
+}
+
+li {
+    list-style: none;
+}
+
+.order-instruction-item:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: var(--main-text-color);
+    background: var(--background-dark-color);
+    display: inline-block;
+    text-align: center;
+    margin: 5px 14px;
+    line-height: 40px;
+    width: 40px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+
+.order-instruction-girl-pic {
+    display: flex;
+    justify-content: center;
+}
