@@ -139,3 +139,179 @@
     border: none;
   }
 }
+
+
+/* ADAPTIVE TABLET */
+
+@media screen and (min-width: 768px) {
+  .vegetables-topic{
+    color: #141414;
+    text-align: center;
+    font-size: 28px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+  }
+  
+  .order-button:hover {
+    background-color: var(--background-dark-color);
+    border: none;
+  }
+
+  .vegetables-info{
+    color: #141414;   
+    max-width: 557px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    margin: 0 auto;
+    margin-top: 14px;
+  }
+
+  .vegetable {
+    width: 342px;
+    height: 465px;
+    background-color: var(--background-light-color);
+    border-radius: 20px;
+    padding: 64px 0 24px 24px;
+  }
+  
+  .vegetables-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+
+  .radish {
+    display: none;
+}
+  
+  .veg-name{
+    color: #141414;
+    font-size: 28px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+  }
+  
+  .plant{
+    color: #141414;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    text-transform: capitalize;
+  }
+  .price{
+    color: #141414;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+  }
+  .order-button {
+    width: 114px;
+    height: 114px;
+    background-color: var(--btn-background-color);
+    border-radius: 90%;
+    border: none;
+    margin-top: 20px;
+    transform: rotate(-14deg);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-span{
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.arrow-svg{
+  fill: #FFF;
+}
+
+.vegetables-container{
+  max-width: 1060px;
+}
+}
+
+/* ADAPTIVE DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .vegetables-container{
+    max-width: 100%;
+  }
+  
+  .order-button:hover {
+    background-color: var(--background-dark-color);
+    border: none;
+  }
+  .vegetable{
+    padding: 64px 0 24px 24px;
+    width: 389px;
+  }
+  .radish {
+    display: block;
+}
+.vegetables-list {
+  gap: 24px;
+}
+.vegetables-topic{
+  color: #141414;
+  text-align: center;
+  font-size: 40px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+}
+ .vegetables-info{
+  color: #141414;
+  text-align: center;
+  font-size: 18px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+ }
+ .veg-name{
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -1.28px;
+ }
+ .plant{
+  font-size: 18px;
+  line-height: 24px;
+ }
+ .price{
+  font-size: 18px;
+  line-height: 24px;
+ }
+}
+@media screen and (min-width: 1400px) {
+  .vegetables-container{
+    max-width: 1400px;
+}
+}
