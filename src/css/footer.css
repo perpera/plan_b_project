@@ -1,3 +1,4 @@
+
 .footer {
   width: 100%;
   background-color: var(--background-light-color);
@@ -32,13 +33,11 @@ fill: var(--logo-color);
 }
 .logo-footer {
   font-size: 14px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.28;
   color: var(--main-text-color);
   text-transform: uppercase;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.04em;
   margin-left: 8px;
 }
 
@@ -54,7 +53,11 @@ text-align: center;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.28;
-letter-spacing: -0.56px;
+letter-spacing: -0.04em;
+}
+.nav-list:hover,
+.nav-list:hover{
+color: var(--background-dark-color);
 }
 
 .social-list {
@@ -102,7 +105,7 @@ letter-spacing: -0.56px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
   font-style: normal;
 }
 
