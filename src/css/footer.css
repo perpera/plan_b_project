@@ -1,0 +1,145 @@
+
+.footer {
+  width: 100%;
+  background-color: var(--background-light-color);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-container {
+  max-width: 365px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-footer {
+  max-height: 172px;
+  margin-bottom: 20px;
+}
+.logo-svg {
+  display: flex;
+  justify-content: center;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo-svg:focus,
+.logo-svg:hover{
+fill: var(--logo-color);
+}
+.logo-footer {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.28;
+  color: var(--main-text-color);
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  margin-left: 8px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.nav-list{
+    color: var(--main-text-color);
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28;
+letter-spacing: -0.04em;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-list:hover,
+.nav-list:hover{
+color: var(--background-dark-color);
+}
+
+.social-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.icon-footer {
+  border-radius: 10px;
+  border: 1px solid var(--main-text-color);
+  padding: 8px;
+  fill: var(--main-text-color);
+  width: 40px;
+  height: 40px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.border {
+  opacity: 0.800000011920929;
+}
+
+.icon-footer:hover,
+.icon-footer:focus{
+    fill: var(--background-dark-color);
+    border-color: var(--background-dark-color);
+    
+}
+
+.footer-tel {
+  color: var(--main-text-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+
+.footer-add {
+  color: var(--main-text-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  font-style: normal;
+}
+
+/* Планшет */
+@media screen and (min-width: 768px) {
+    .footer-container{
+        max-width: 734px;
+        flex-wrap: wrap;
+        max-height: 275px;
+        align-content: space-between;
+
+    }
+    .social-list{
+        justify-content: start;
+    }
+    .footer-tel{
+        font-size: 18px;
+        line-height: 1.33;
+    }
+    .footer-add{
+        font-size: 18px;
+        line-height: 1.33;
+        text-align: start;
+    }
+}
+/* Десктоп */
+@media screen and (min-width: 1280px){
+    .footer-container{
+        max-width: 1246px;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 166px;
+    }
+    
+    
+}
