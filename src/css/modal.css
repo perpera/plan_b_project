@@ -43,6 +43,13 @@
   text-transform: uppercase;
   margin-bottom: 40px;
 }
+.modal-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
 .modal-card {
   position: relative;
   padding: 14px 14px 8px 20px;
@@ -51,6 +58,7 @@
   background: var(--background-secondary-color);
   border-radius: 20px;
   margin-bottom: 40px;
+  flex-grow: 1;
 }
 
 .modal-close-btn {
