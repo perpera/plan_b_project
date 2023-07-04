@@ -3,13 +3,13 @@
 }
 
 .is-hidden {
-  visibility: none;
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
 
-.mobile-menu-open {
-  /* transform: translateX(-100%); */
+.mobile-menu.is-hidden {
+  transform: translateX(100%);
 }
 
 .mobile-menu {
@@ -21,8 +21,7 @@
   left: 0;
   overflow: auto;
   background-color: var(--background-dark-color);
-  transform: translateX(-5%);
-  transition: transform 0.5s;
+  transition: transform 0.5ms;
 }
 
 .mobile-menu-header {
@@ -33,7 +32,6 @@
   justify-content: space-between;
   padding-top: 17px;
   padding-bottom: 17px;
-
   padding-left: 20px;
   padding-right: 20px;
 }
