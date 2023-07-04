@@ -119,6 +119,9 @@ color: var(--background-dark-color);
         align-content: space-between;
 
     }
+    .img-footer{
+      width: 349px;
+    }
     .social-list{
         justify-content: start;
     }
@@ -137,8 +140,9 @@ color: var(--background-dark-color);
     .footer-container{
         max-width: 1246px;
         flex-direction: row;
-        justify-content: flex-start;
-        gap: 166px;
+        justify-content: space-between;
+        margin: 0 32px;
+        padding: 0;
     }
     
     
