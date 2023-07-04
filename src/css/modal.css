@@ -210,3 +210,93 @@
 .modal-form-submit:focus {
   background-color: var(--background-dark-color);
 }
+
+/* TABLET BELOW */
+
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 704px;
+    max-height: 853px;
+    padding: 40px;
+    background-image: url('../img/modal-img-1-tab-1x.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .modal {
+      background-image: url('../img/modal-img-1-tab-2x.png');
+      background-size: 290px;
+      background-position: bottom right;
+    }
+  }
+
+  .modal-card {
+    width: 200px;
+    height: 250px;
+    padding-top: 40px;
+  }
+
+  .modal-card-img {
+    width: 172px;
+    height: 142px;
+    top: 94px;
+    right: 14px;
+    left: 14px;
+    bottom: 14px;
+  }
+
+  .modal-form {
+    max-width: 360px;
+  }
+}
+
+.modal-close-btn {
+  top: 20px;
+}
+
+.modal-form-submit {
+  width: 114px;
+  height: 48px;
+}
+/* DESKTOP BELOW */
+
+@media screen and (min-width: 1280px) {
+  .modal {
+    max-width: 891px;
+    max-height: 911px;
+    padding-right: 40px;
+    background-image: url('../img/modal-img-1-1x.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .modal {
+      background-image: url('../img/modal-img-1-2x.png');
+      background-size: 50%;
+      background-position: bottom right;
+    }
+  }
+
+  .modal-card {
+    width: 257px;
+    height: 308px;
+    padding-left: 20px;
+  }
+
+  .modal-cards-list {
+    gap: 20px;
+  }
+
+  .modal-card-img {
+    width: 243px;
+    height: 200px;
+    top: 94px;
+    right: 7px;
+    left: 7px;
+    bottom: 14px;
+  }
+
+  .modal-card-header {
+    margin-bottom: 8px;
+  }
+}
