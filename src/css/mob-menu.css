@@ -77,11 +77,16 @@
   stroke: var(--logo-color);
 }
 
-.mobile-menu-order,
-.mobile-menu-open,
-.desktop-menu-order {
+.mobile-menu-open {
   background: transparent;
   border: none;
   padding: 0;
   height: 24px;
+}
+
+.mobile-menu-order {
+  background: transparent;
+  border: none;
+  padding: 0;
+  height: 20px;
 }
