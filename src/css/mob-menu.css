@@ -29,6 +29,7 @@
 }
 
 .mobile-menu-header {
+  height: 50px;
   background-color: var(--white-text-color);
   position: relative;
   display: flex;
