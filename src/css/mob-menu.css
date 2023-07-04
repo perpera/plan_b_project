@@ -1,0 +1,78 @@
+.no-scroll {
+  overflow: hidden;
+}
+
+.is-hidden {
+  visibility: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mobile-menu-open {
+  /* transform: translateX(-100%); */
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background-color: var(--background-dark-color);
+  transform: translateX(-5%);
+  transition: transform 0.5s;
+}
+
+.mobile-menu-header {
+  background-color: var(--white-text-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 17px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mobile-modal-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 124px;
+}
+
+.mobile-menu-link {
+  color: var(--white-text-color);
+  text-align: center;
+  font-size: 14px;
+  font-family: DM Sans, sans-serif;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+
+.mobile-menu_close-btn {
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 24px;
+}
+
+.mobile-menu-open_icon {
+  fill: var(--background-dark-color);
+}
+
+.mobile-menu-order,
+.mobile-menu-open,
+.desktop-menu-order {
+  background: transparent;
+  border: none;
+  padding: 0;
+  height: 24px;
+}
