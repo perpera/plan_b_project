@@ -82,7 +82,7 @@
 
 .popup-subscribe-button:hover,
 .popup-subscribe-button:focus {
-    background: var(--background-dark-color);
+  background: var(--background-dark-color);
 }
 
 .cta-phone-input::placeholder {
@@ -102,13 +102,12 @@
   flex: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cta {
     max-width: 375px;
     margin: 0 auto;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .cta {
@@ -160,7 +159,7 @@
 
 @media screen and (min-width: 1280px) {
   .cta {
-    max-width: 1250px;
+    max-width: 1216px;
     margin: 0 auto;
     display: flex;
     align-items: center;
