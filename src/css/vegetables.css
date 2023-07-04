@@ -150,7 +150,7 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 32px;
-    letter-spacing: -0.07em;
+    letter-spacing: -1.12px;
     text-transform: uppercase;
   }
   
@@ -166,7 +166,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.72px;
     margin: 0 auto;
     margin-top: 14px;
   }
@@ -197,7 +197,7 @@
     font-size: 28px;
     font-weight: 700;
     line-height: 32px;
-    letter-spacing: -0.07em;
+    letter-spacing: -1.12px;
   }
   
   .plant{
@@ -205,7 +205,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.0225em;
+    letter-spacing: -0.36px;
     text-transform: capitalize;
   }
   .price{
@@ -213,7 +213,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: -0.045em;
+    letter-spacing: -0.72px;
   }
   .order-button {
     width: 114px;
@@ -232,7 +232,7 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.72px;
   text-transform: uppercase;
 }
 .arrow-svg{
@@ -280,12 +280,12 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.72px;
  }
  .veg-name{
   font-size: 32px;
   line-height: 38px;
-  letter-spacing: -0.08em;
+  letter-spacing: -1.28px;
  }
  .plant{
   font-size: 18px;
