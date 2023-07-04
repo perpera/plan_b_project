@@ -136,19 +136,16 @@ height: 228px;
 .navigation-wrapper{
     width: 169px;
     height: 60px;
+    margin-top: 16px;
+    margin-left: auto;
 }
 .hero-navigation {
 display: flex;
-justify-content: flex-end;
 flex-wrap: wrap;
 gap: 4px;
-padding-top: 16px;
-padding-bottom: 20px;
-}
-.hero-navigation-item {
-flex-grow: 1;
 
 }
+
 .hero-navigation-link {
 color: var(--white-text-color);
 background-color: transparent;
@@ -165,6 +162,8 @@ text-transform: uppercase;
 transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+letter-spacing: -0.4px;
+padding: 7px 13px;
 }
 
 .hero-navigation-link:is(:hover, :focus){
