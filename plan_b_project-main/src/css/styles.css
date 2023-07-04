@@ -1,0 +1,40 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+/** FONTS */
+@import url('./fonts.css');
+
+/** GEN-VAR */
+@import url('./gen-var.css');
+
+/** MN + RESET */
+@import url('./reset.css');
+
+/** HEADER */
+@import url('./header.css');
+
+/** HERO */
+@import url('./hero.css');
+
+/** HOW IT WORKS */
+@import url('./how-it-works.css');
+@import url('./three-easy-steps.css');
+
+/** VEGETABLES */
+@import url('./vegetables.css');
+
+/** WE WILL CALL YOU */
+@import url('./we-will-call-you.css');
+
+/** FOOTER */
+@import url('./footer.css');
+
+/** MOB-MENU */
+@import url('./mob-menu.css');
+
+/** MODAL */
+@import url('./modal.css');
