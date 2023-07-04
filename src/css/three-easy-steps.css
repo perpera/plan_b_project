@@ -1,0 +1,175 @@
+.how-it-works {}
+
+.order-instruction {
+    margin: 20px;
+    background-color: var(--background-secondary-color);
+    background-image: url(../img/background-dots-img-1-mob-1x.png);
+    border-radius: 40px;
+}
+
+.order-instruction-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.order-instruction-header {
+    display: flex;
+    max-width: 364px;
+    color: var(--main-text-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    padding: 40px 20px;
+}
+
+.order-instruction-list {
+    width: 275px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    margin: 0 40px 20px 20px;
+    align-items: center;
+}
+
+.order-instruction-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.order-instruction-text {
+    width: 176px;
+    margin-left: 14px;
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+}
+
+.order-instruction-list {
+    counter-reset: myCounter;
+}
+
+.order-instruction-item:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: var(--main-text-color);
+    background: var(--background-dark-color);
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 38px;
+    border-radius: 50%;
+    top: 50%;
+}
+
+.order-instruction-girl-pic {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.order-instruction-girl-pic {
+    position: relative;
+    left: 10%;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .instruction {
+        min-width: 768px;
+    }
+
+    .order-instruction {
+        margin: 32px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        gap: 40px;
+        background-image: url(../img/background-dots-img-1-1x.png);
+        border-radius: 80px;
+    }
+
+    .order-instruction-cont {
+        gap: 40px;
+        width: 274px;
+        margin: 80px 40px;
+    }
+
+
+    .order-instruction-header {
+        font-size: 28px;
+        line-height: 1.14;
+        letter-spacing: -1.12px;
+        padding: 0;
+    }
+
+    .order-instruction-list {
+        margin: 0;
+    }
+
+    .order-instruction-girl-pic {
+        position: relative;
+        top: 36px;
+        left: 0;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1158px) {
+    .instruction {
+        max-width: 1280px;
+    }
+
+    .order-instruction {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .order-instruction-header {
+        font-size: 40px;
+        line-height: 1.10;
+        font-weight: 500;
+        letter-spacing: -1.6px;
+        padding: 0;
+    }
+
+    .order-instruction-cont {
+        gap: 40px;
+        width: 512px;
+        margin: 80px;
+        justify-content: left;
+    }
+
+    .order-instruction-text {
+        width: 289px;
+    }
+
+    .order-instruction-girl-pic {
+        position: relative;
+        top: 68px;
+        left: 80px;
+    }
+
+}
