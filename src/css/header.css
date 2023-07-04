@@ -122,7 +122,9 @@
   }
 
   .site-link.link:hover,
-  .site-link.link:focus {
+  .site-link.link:focus,
+  .logo-text:hover,
+  .logo-text:focus {
     color: var(--background-dark-color);
   }
 
