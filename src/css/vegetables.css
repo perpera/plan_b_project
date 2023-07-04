@@ -1,4 +1,4 @@
-.container {
+.veg-cont {
   width: 100%;
   display: flex;
   box-sizing: border-box;
@@ -11,7 +11,7 @@
     min-width: 375px;
   }
 
-  .container {
+  .veg-cont {
     padding: 0 20px;
   }
 
@@ -145,14 +145,12 @@
 
 @media screen and (min-width: 768px) {
   .vegetables-topic{
-    color: #141414;
+    color: var(--main-text-color);
     text-align: center;
     font-size: 28px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    letter-spacing: -1.12px;
+    letter-spacing: -0.07em;
     text-transform: uppercase;
   }
   
@@ -162,7 +160,7 @@
   }
 
   .vegetables-info{
-    color: #141414;   
+    color: var(--main-text-color);   
     max-width: 557px;
     text-align: center;
     font-size: 18px;
@@ -195,33 +193,27 @@
 }
   
   .veg-name{
-    color: #141414;
+    color: var(--main-text-color);
     font-size: 28px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 700;
     line-height: 32px;
-    letter-spacing: -1.12px;
+    letter-spacing: -0.07em;
   }
   
   .plant{
-    color: #141414;
+    color: var(--main-text-color);
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.36px;
+    letter-spacing: -0.0225em;
     text-transform: capitalize;
   }
   .price{
-    color: #141414;
+    color: var(--main-text-color);
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: -0.72px;
+    letter-spacing: -0.045em;
   }
   .order-button {
     width: 114px;
@@ -235,18 +227,16 @@
 }
 
 .button-span{
-  color: #FFF;
+  color: var(--white-text-color);
   text-align: center;
   font-size: 18px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: -0.72px;
+  letter-spacing: -0.045em;
   text-transform: uppercase;
 }
 .arrow-svg{
-  fill: #FFF;
+  fill: var(--white-text-color);
 }
 
 .vegetables-container{
@@ -276,30 +266,26 @@
   gap: 24px;
 }
 .vegetables-topic{
-  color: #141414;
+  color: var(--main-text-color);
   text-align: center;
   font-size: 40px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 500;
   line-height: 44px;
-  letter-spacing: -1.6px;
+  letter-spacing: -0.1em;
   text-transform: uppercase;
 }
  .vegetables-info{
-  color: #141414;
+  color: var(--main-text-color);
   text-align: center;
   font-size: 18px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: -0.72px;
+  letter-spacing: -0.045em;
  }
  .veg-name{
   font-size: 32px;
   line-height: 38px;
-  letter-spacing: -1.28px;
+  letter-spacing: -0.08em;
  }
  .plant{
   font-size: 18px;
