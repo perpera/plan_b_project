@@ -1,13 +1,20 @@
-.how-it-works {}
+.how-it-works {
+    margin: auto;
+}
 
 .order-instruction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     margin: 20px;
     background-color: var(--background-secondary-color);
-    background-image: url(../img/background-dots-img-1-mob-1x.png);
+    background-image: url(../img/background-dots-img-1-tab-1x.png);
     border-radius: 40px;
 }
 
 .order-instruction-cont {
+    max-width: 698px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -80,11 +87,8 @@
 }
 
 .order-instruction-girl-pic {
-    position: relative;
-    left: 10%;
+    position: static;
 }
-
-
 
 
 
@@ -96,13 +100,13 @@
     }
 
     .order-instruction {
-        margin: 32px;
+        margin: 0 32px 100px 32px;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row-reverse;
         justify-content: space-around;
         gap: 40px;
-        background-image: url(../img/background-dots-img-1-1x.png);
+        background-image: url(../img/background-dots-img-1-tab-1x.png);
         border-radius: 80px;
     }
 
@@ -129,11 +133,7 @@
         top: 36px;
         left: 0;
     }
-
 }
-
-
-
 
 
 
@@ -145,6 +145,8 @@
     .order-instruction {
         display: flex;
         justify-content: space-between;
+        margin: 24px 32px 124px 32px;
+        background-image: url(../img/background-dots-img-1-1x.png);
     }
 
     .order-instruction-header {
@@ -158,7 +160,6 @@
     .order-instruction-cont {
         gap: 40px;
         width: 512px;
-        margin: 80px;
         justify-content: left;
     }
 
