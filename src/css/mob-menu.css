@@ -53,7 +53,6 @@
   color: var(--white-text-color);
   text-align: center;
   font-size: 14px;
-  font-family: DM Sans, sans-serif;
   line-height: 1.28;
   letter-spacing: -0.04em;
 }
@@ -66,8 +65,16 @@
   height: 24px;
 }
 
+.header-menu-open_icon {
+  fill: var(--logo-color);
+}
+
 .mobile-menu-open_icon {
   fill: var(--background-dark-color);
+}
+
+.mobile-menu_close-icon {
+  stroke: var(--logo-color);
 }
 
 .mobile-menu-order,
