@@ -1,107 +1,92 @@
-.how_works_wrap{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+.how_works_wrap {
 }
 .how_works_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    width: 100%;
-    max-width: 335px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 20px;
+  max-width: 375px;
+  margin: 0 auto;
 }
 .how_works_title {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1.14; /* 32/28 */
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.14; /* 32/28 */
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
 }
-.broccoli_pic{
-    display: block;
-    width: auto;
-    height: auto;
+.broccoli_pic {
+  display: block;
+  width: auto;
+  height: auto;
 }
-.how_works_text{
-    font-size: 14px;
-    line-height: 1.28; /* 18/14 */
-    letter-spacing: -0.04em;
-    color: var(--main-text-color);
+.how_works_text {
+  font-size: 14px;
+  line-height: 1.28; /* 18/14 */
+  letter-spacing: -0.04em;
 }
 
 /* TABLET */
 
-@media screen and (min-width:768px){
-    .how_works_wrap{
-        padding-left: 31px;
-        padding-right: 31px;
+@media screen and (min-width: 768px) {
+  .how_works_wrap {
+  }
+  .how_works_container {
+    padding: 100px 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: unset;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 768px;
+  }
+  .how_works_title {
+    max-width: 386px;
+    font-size: 40px;
+    line-height: 1.1; /* 44/40 */
+  }
+  .broccoli_pic {
+    margin-left: auto;
+  }
+
+  .how_works_text {
+    font-size: 18px;
+    line-height: 1.33; /* 24/18 */
+    margin-top: 40px;
+  }
+  .first_paragraph {
+    max-width: 317px;
+    margin-right: 20px;
+  }
+  .second_paragraph {
+    max-width: 279px;
+  }
+
+  /*DESKTOP*/
+
+  @media screen and (min-width: 1280px) {
+    .how_works_wrap {
     }
-    .how_works_container{
-        padding-top: 100px;
-        padding-bottom: 100px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: unset;
-        justify-content: flex-start;
-        align-items: flex-start;
-        max-width: 704px;
+    .how_works_container {
+      padding-top: 124px;
+      padding-bottom: 124px;
+      max-width: 1280px;
     }
-    .how_works_title{
-        max-width: 386px;
-        font-size: 40px;
-        line-height: 1.1; /* 44/40 */
-        letter-spacing: -0.04em;
-    }
-     .broccoli_pic{
-        margin-left: auto;
+    .how_works_title {
+      max-width: 614px;
+      font-size: 48px;
+      line-height: 1.04; /* 50/48 */
+      letter-spacing: -0.04em;
     }
 
-    .how_works_text{
-        font-size: 18px;
-        line-height: 1.33; /* 24/18 */
-        letter-spacing: -0.04em;
-        margin-top: 40px;
+    .first_paragraph {
+      max-width: 353px;
+      margin-right: 40px;
     }
-   .first_paragraph{
-        max-width:317px;
-        margin-right: 20px;
-   }
-   .second_paragraph{
-        max-width: 279px;
-   }
-
-   /*DESKTOP*/
-
-   @media screen and (min-width:1280px){
-    .how_works_wrap{
-        padding-left: 32px;
-        padding-right: 32px;
+    .second_paragraph {
+      max-width: 294px;
     }
-    .how_works_container{
-        padding-top: 124px;
-        padding-bottom: 124px;
-        max-width: 1216px;
-    }
-    .how_works_title{
-        max-width: 604px;
-        font-size: 48px;
-        line-height: 1.04; /* 50/48 */
-        letter-spacing: -0.04em;
-    }
-   
-    .first_paragraph{
-        max-width: 353px;
-        margin-right: 40px;
-    }
-    .second_paragraph{
-        max-width: 294px;
-    }
-    
-   }
+  }
 }
