@@ -50,40 +50,39 @@
   position: absolute;
   left: 84px;
   z-index: 3;
-  padding: 11px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .hero-pics {
   width: 40px;
   height: 40px;
   margin: 2px;
+  display: block;
 }
 .hero-item-text {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 14px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 500;
-  line-height: 10px;
-  text-transform: uppercase;
-  padding-bottom: 22px;
+  line-height: 14px;
+  letter-spacing: -0.04em;
 }
 
 .hero-item-span {
   text-align: center;
   font-size: 8px;
-  text-transform: lowercase;
-  line-height: 10px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
   padding-bottom: 10px;
 }
 .hero-title {
   color: var(--white-text-color);
   font-size: 40px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 44px;
+  line-height: 1.1;
   letter-spacing: -0.1em;
-  text-transform: uppercase;
   margin-top: 14px;
   margin-bottom: 14px;
   max-width: 335px;
@@ -97,16 +96,19 @@
 .hero-text {
   color: var(--white-text-color);
   font-size: 14px;
-  font-style: normal;
-  line-height: 18px;
-  letter-spacing: -0.01em;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
 }
 .hero-btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
   width: 68px;
   height: 68px;
   background-color: var(--background-secondary-color);
   color: var(--btn-background-color);
-  border-radius: 90%;
+  border-radius: 50%;
   border: none;
   margin-top: 20px;
   transform: rotate(-14deg);
@@ -141,16 +143,14 @@
   border: none;
   border-radius: 1000px;
   border: 1px solid var(--white-text-color);
-  text-align: center;
   font-size: 10px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 12px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  letter-spacing: -0.4px;
   padding: 7px 13px;
 }
 
