@@ -7,8 +7,6 @@
 
 .footer-container {
   max-width: 365px;
-  padding-right: 15px;
-  padding-left: 15px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -112,7 +110,7 @@
 /* Планшет */
 @media screen and (min-width: 768px) {
   .footer-container {
-    max-width: 734px;
+    max-width: 768px;
     flex-wrap: wrap;
     max-height: 275px;
     align-content: space-between;
@@ -140,11 +138,9 @@
 /* Десктоп */
 @media screen and (min-width: 1280px) {
   .footer-container {
-    max-width: 1216px;
+    max-width: 1280px;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 0 auto;
-    padding: 0;
     gap: 166px;
   }
 }

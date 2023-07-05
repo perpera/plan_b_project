@@ -1,6 +1,3 @@
-.how-it-works {
-}
-
 .order-instruction {
   padding: 40px 20px 0 20px;
   max-width: 335px;
@@ -13,14 +10,6 @@
   background-image: url(../img/background-dots-img-1-mob-1x.png);
   border-radius: 40px;
   background-repeat: no-repeat;
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) and (max-width: 767px) {
-  .order-instruction {
-    background-image: url(../img/background-dots-img-1-mob-2x.png);
-  }
 }
 
 .order-instruction-cont {
@@ -77,9 +66,6 @@
   border-radius: 50%;
 }
 
-.order-instruction-girl-pic {
-}
-
 @media screen and (min-width: 768px) {
   .instruction {
     padding-bottom: 100px;
@@ -95,14 +81,6 @@
     border-radius: 80px;
     max-width: 704px;
     padding: 80px 40px;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .order-instruction {
-      background-image: url(../img/background-dots-img-1-tab-2x.png);
-    }
   }
 
   .order-instruction-item:before {
@@ -155,13 +133,6 @@
     background-image: url(../img/background-dots-img-1-1x.png);
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .order-instruction {
-      background-image: url(../img/background-dots-img-1-2x.png);
-    }
-  }
   .order-instruction-header {
     display: flex;
     flex-wrap: wrap;
