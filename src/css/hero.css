@@ -91,7 +91,7 @@
   text-transform: uppercase;
   margin-top: 14px;
   margin-bottom: 14px;
-  width: 656px;
+  max-width: 335px;
 }
 
 .hero-title-span {
@@ -167,8 +167,10 @@
   color: var(--main-text-color);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) {
   .hero-container {
+    margin: 0 auto;
+    max-width: 768px;
     width: 100%;
     padding: 64px 32px 32px 32px;
   }
@@ -222,6 +224,7 @@
     text-transform: uppercase;
     margin-top: 16px;
     margin-bottom: 16px;
+    max-width: 656px;
   }
 
   .hero-text {
@@ -278,7 +281,10 @@
 
 @media screen and (min-width: 1280px) {
   .hero-container {
+    margin: 0 auto;
+    max-width: 1280px;
     width: 100%;
+    position: relative;
     padding: 134px 32px 32px 32px;
   }
 
@@ -331,7 +337,7 @@
     text-transform: uppercase;
     margin-top: 16px;
     margin-bottom: 16px;
-    width: 672px;
+    max-width: 672px;
   }
 
   .hero-text {
