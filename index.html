@@ -647,9 +647,6 @@
       link.addEventListener('click', handleMenuLinkClick);
     });
 
-    const openMenuBtn = document.querySelector('[data-modal-open]');
-    openMenuBtn.addEventListener('click', openMenu);
-
     function openMenu() {
       const menu = document.querySelector('.mobile-menu');
       menu.classList.remove('is-hidden');
