@@ -1,12 +1,13 @@
 .how_works_wrap {
 }
-.how_works_container {
+.how_works_wrap > .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding: 80px 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   max-width: 375px;
   margin: 0 auto;
 }
@@ -33,8 +34,9 @@
 @media screen and (min-width: 768px) {
   .how_works_wrap {
   }
-  .how_works_container {
-    padding: 100px 32px;
+  .how_works_wrap > .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
     flex-direction: row;
     flex-wrap: wrap;
     gap: unset;
@@ -69,7 +71,7 @@
   @media screen and (min-width: 1280px) {
     .how_works_wrap {
     }
-    .how_works_container {
+    .how_works_wrap > .container {
       padding-top: 124px;
       padding-bottom: 124px;
       max-width: 1280px;
