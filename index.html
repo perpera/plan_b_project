@@ -565,18 +565,16 @@
   </div>
   <ul class="mobile-modal-list list">
     <li class="mob-menu-item">
-      <a href="./how-it-works.html" class="mobile-menu-link link"
-        >How It Works</a
-      >
+      <a href="#how_it_works" class="mobile-menu-link link">How It Works</a>
     </li>
     <li class="mob-menu-item">
-      <a href="./vegetables.html" class="mobile-menu-link link">Vegetables</a>
+      <a href="#vegetables" class="mobile-menu-link link">Vegetables</a>
     </li>
     <li class="mob-menu-item">
-      <a href="./footer.html" class="mobile-menu-link link">Contacts</a>
+      <a href="#contact" class="mobile-menu-link link">Contacts</a>
     </li>
     <li class="mob-menu-item">
-      <button type="button" class="mobile-menu-order" data-modal-open>
+      <button type="button" class="mobile-menu-order" data-modal-open="modal">
         <svg
           class="mobile-menu-open_icon"
           width="20"
@@ -588,6 +586,31 @@
       </button>
     </li>
   </ul>
+  <script>
+    function closeMenu() {
+      const menu = document.querySelector('.mobile-menu');
+      menu.classList.add('is-hidden');
+    }
+
+    function handleMenuLinkClick(event) {
+      closeMenu();
+      document.body.classList.remove('no-scroll');
+    }
+
+    const menuLinks = document.querySelectorAll('.mobile-menu-link');
+    menuLinks.forEach(function (link) {
+      link.addEventListener('click', handleMenuLinkClick);
+    });
+
+    const openMenuBtn = document.querySelector('[data-modal-open]');
+    openMenuBtn.addEventListener('click', openMenu);
+
+    function openMenu() {
+      const menu = document.querySelector('.mobile-menu');
+      menu.classList.remove('is-hidden');
+      document.body.classList.add('no-scroll');
+    }
+  </script>
 </div>
 
 
