@@ -15,15 +15,6 @@
     background-repeat: no-repeat;
 }
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .order-instruction {
-        background-image: url(../img/background-dots-img-1-mob-2x.png);
-        background-repeat: no-repeat;
-    }
-}
-
 .order-instruction-cont {
     max-width: 698px;
     display: flex;
@@ -84,17 +75,11 @@
     background: var(--background-dark-color);
     display: inline-block;
     text-align: center;
+    padding-bottom: 3px;
     line-height: 40px;
     width: 40px;
     height: 38px;
     border-radius: 50%;
-    top: 50%;
-}
-
-.order-instruction-girl-pic {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .order-instruction-girl-pic {
@@ -116,17 +101,23 @@
         flex-wrap: nowrap;
         flex-direction: row-reverse;
         justify-content: space-around;
-        gap: 40px;
         background-image: url(../img/background-dots-img-1-tab-1x.png);
         border-radius: 80px;
     }
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .order-instruction {
-            background-image: url(../img/background-dots-img-1-tab-2x.png);
-        }
+    .order-instruction-item:before {
+        counter-increment: myCounter;
+        content: counter(myCounter);
+        color: var(--main-text-color);
+        background: var(--background-dark-color);
+        display: inline-block;
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 46px;
+        height: 44px;
+        border-radius: 50%;
     }
 
     .order-instruction-cont {
@@ -149,7 +140,7 @@
 
     .order-instruction-girl-pic {
         position: relative;
-        top: 88px;
+        top: 42px;
         left: 0;
     }
 }
@@ -164,20 +155,17 @@
     .order-instruction {
         height: 460px;
         display: flex;
-        justify-content: space-between;
-        margin: 24px 32px 124px 32px;
+        margin: 0 32px 124px 32px;
         background-image: url(../img/background-dots-img-1-1x.png);
     }
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .order-instruction {
-            background-image: url(../img/background-dots-img-1-2x.png);
-        }
-    }
+
 
     .order-instruction-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 512px;
         font-size: 40px;
         line-height: 1.10;
         font-weight: 500;
@@ -198,7 +186,7 @@
     .order-instruction-girl-pic {
         position: relative;
         top: 40px;
-        left: 80px;
+        left: 40px;
     }
 
 }
