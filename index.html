@@ -13,13 +13,13 @@
     />
     <title>Veggie Boost</title>
     
-    <script type="module" crossorigin src="/plan_b_project/assets/index-c8d07010.js"></script>
-    <link rel="stylesheet" href="/plan_b_project/assets/index-d63ab620.css">
+    <script type="module" crossorigin src="/plan_b_project/assets/index-2434309e.js"></script>
+    <link rel="stylesheet" href="/plan_b_project/assets/index-3673e46a.css">
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
-  <div class="header-container">
+  <div class="header-container container">
     <nav class="header-navigation">
       <ul class="site-nav list">
         <li class="site-item">
@@ -55,7 +55,7 @@
 
     <!-- HERO -->
     <section class="hero">
-  <div class="hero-container">
+  <div class="hero-container container">
     <div class="hero-wrap">
       <ul class="hero-list list">
         <li class="hero-item">
@@ -259,7 +259,7 @@
 
     <!-- VEGETABLES -->
     <section class="vegetables veg-cont" id="vegetables">
-  <div class="vegetables-container">
+  <div class="vegetables-container container">
     <h2 class="vegetables-topic">organic vegetables</h2>
     <p class="vegetables-info">
       Our organic vegetables are hand-picked from local farms and delivered
@@ -453,63 +453,65 @@
 
 
     <!-- WE WILL CALL YOU -->
-    <section class="cta container" id="contact">
-  <div class="cta-block-container col-left">
-    <h2 class="cta-title">Fresh Harvest Box has got you covered</h2>
-    <p class="cta-text">
-      Our boxes are packed with delicious, nutritious vegetables, perfect for
-      anyone looking to eat healthier or support local farmers. Order your box
-      today and start enjoying the best that nature has to offer!
-    </p>
+    <section id="contact">
+  <div class="container cta">
+    <div class="cta-block-container col-left">
+      <h2 class="cta-title">Fresh Harvest Box has got you covered</h2>
+      <p class="cta-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
 
-    <form class="form-cta">
-      <label class="form-cta-phone">
-        <input
-          id="phone"
-          type="tel"
-          name="phone"
-          class="cta-phone-input"
-          required
-          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-          title="xxx-xxx-xx-xx"
-          placeholder="+ 380 () "
+      <form class="form-cta">
+        <label class="form-cta-phone">
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            class="cta-phone-input"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            placeholder="+ 380 () "
+          />
+        </label>
+
+        <button type="submit" class="popup-subscribe-button">Recall</button>
+      </form>
+    </div>
+
+    <div class="cta-block col-right">
+      <picture>
+        <source
+          srcset="/plan_b_project/assets/will-call-img-1-1x-8bf20745.png 1x, /plan_b_project/assets/will-call-img-1-2x-bcd84c28.png 2x"
+          media="(min-width: 1280px)"
         />
-      </label>
 
-      <button type="submit" class="popup-subscribe-button">Recall</button>
-    </form>
-  </div>
+        <source
+          srcset="/plan_b_project/assets/will-call-img-1-tab-1x-c8f6937a.png 1x, /plan_b_project/assets/will-call-img-1-tab-2x-dfab7edc.png 2x"
+          media="(min-width: 768px)"
+        />
 
-  <div class="cta-block col-right">
-    <picture>
-      <source
-        srcset="/plan_b_project/assets/will-call-img-1-1x-8bf20745.png 1x, /plan_b_project/assets/will-call-img-1-2x-bcd84c28.png 2x"
-        media="(min-width: 1280px)"
-      />
-
-      <source
-        srcset="/plan_b_project/assets/will-call-img-1-tab-1x-c8f6937a.png 1x, /plan_b_project/assets/will-call-img-1-tab-2x-dfab7edc.png 2x"
-        media="(min-width: 768px)"
-      />
-
-      <source
-        srcset="/plan_b_project/assets/will-call-img-1-mob-1x-681aaebe.png 1x, /plan_b_project/assets/will-call-img-1-mob-2x-845e2ca0.png 2x"
-        media="(max-width: 767px)"
-      />
-      <img
-        src="/plan_b_project/assets/will-call-img-1-tab-1x-c8f6937a.png"
-        alt="photo"
-        width="704"
-        height="463"
-      />
-    </picture>
+        <source
+          srcset="/plan_b_project/assets/will-call-img-1-mob-1x-681aaebe.png 1x, /plan_b_project/assets/will-call-img-1-mob-2x-845e2ca0.png 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/plan_b_project/assets/will-call-img-1-tab-1x-c8f6937a.png"
+          alt="photo"
+          width="704"
+          height="463"
+        />
+      </picture>
+    </div>
   </div>
 </section>
 
 
     <!-- FOOTER -->
-    <div class="footer">
-  <div class="footer-container">
+    <footer class="footer">
+  <div class="footer-container container">
     <div>
       <picture>
         <source
@@ -594,7 +596,7 @@
       </address>
     </div>
   </div>
-</div>
+</footer>
 
 
     <!-- MOB-MENU -->
