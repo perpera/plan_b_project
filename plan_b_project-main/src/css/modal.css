@@ -1,0 +1,302 @@
+.backdrop {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 47, 66, 0.4);
+  transition: opacity var(--transition-dur-func),
+    visibility var(--transition-dur-func);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal {
+  position: relative;
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 335px;
+  min-height: 576px;
+  border-radius: 20px;
+  background: var(--white-text-color);
+  box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01),
+    0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02),
+    0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03),
+    0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03),
+    0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04),
+    0px 0px 223px 0px rgba(0, 0, 0, 0.05);
+}
+
+.modal-form-header {
+  color: var(--main-text-color);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.modal-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+.modal-card {
+  position: relative;
+  padding: 14px 14px 8px 20px;
+  max-width: 295px;
+  height: 119px;
+  background: var(--background-secondary-color);
+  border-radius: 20px;
+  flex-grow: 1;
+}
+
+.modal-close-btn {
+  position: absolute;
+  cursor: pointer;
+  padding: 0;
+  top: 22px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+}
+.modal-close-btn-icon {
+  stroke: var(--main-text-color);
+}
+.modal-form-checkbox-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.modal-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-card-header {
+  color: var(--main-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33;
+  text-transform: capitalize;
+  letter-spacing: -0.04em;
+}
+.modal-card-describtion {
+  color: var(--main-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.modal-form-check-desc {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-form-fake-checkbox {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: '';
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(161, 196, 135, 1);
+  fill: transparent;
+  border-radius: 4px;
+}
+.modal-form-fake-checkbox-icon {
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-check:checked
+  + .modal-form-check-desc
+  .modal-form-fake-checkbox-icon {
+  opacity: 1;
+  fill: var(--background-dark-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.modal-card-img {
+  position: absolute;
+  top: 33px;
+  right: 30px;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form-input {
+  display: flex;
+  justify-content: center;
+  padding-left: 24px;
+  height: 46px;
+  width: 100%;
+  margin-bottom: 14px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  border: 1px solid var(--modal-form-color);
+}
+.modal-form-input::placeholder {
+  color: var(--modal-form-color);
+}
+
+.modal-form-comment {
+  min-height: 132px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  padding: 14px 24px;
+  border-radius: 20px;
+  border: 1px solid var(--modal-form-color);
+  resize: none;
+}
+.modal-form-comment::placeholder {
+  color: var(--modal-form-color);
+}
+.modal-form-submit {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  width: 92px;
+  height: 42px;
+  border: none;
+  border-radius: 100px;
+  color: var(--white-text-color);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  background: var(--btn-background-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-submit:focus {
+  background-color: var(--background-dark-color);
+}
+
+/* TABLET BELOW */
+
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 704px;
+    max-height: 853px;
+    padding: 40px;
+    background-image: url('../img/modal-img-1-tab-1x.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .modal {
+      background-image: url('../img/modal-img-1-tab-2x.png');
+      background-size: 290px;
+      background-position: bottom right;
+    }
+  }
+
+  .modal-card {
+    width: 200px;
+    height: 250px;
+    padding-top: 40px;
+  }
+
+  .modal-card-img {
+    width: 172px;
+    height: 142px;
+    top: 94px;
+    right: 14px;
+    left: 14px;
+    bottom: 14px;
+  }
+
+  .modal-form {
+    max-width: 360px;
+  }
+}
+
+.modal-close-btn {
+  top: 20px;
+}
+
+.modal-form-submit {
+  width: 114px;
+  height: 48px;
+}
+/* DESKTOP BELOW */
+
+@media screen and (min-width: 1280px) {
+  .modal {
+    max-width: 891px;
+    max-height: 911px;
+    padding-right: 40px;
+    background-image: url('../img/modal-img-1-1x.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .modal {
+      background-image: url('../img/modal-img-1-2x.png');
+      background-size: 50%;
+      background-position: bottom right;
+    }
+  }
+
+  .modal-card {
+    width: 257px;
+    height: 308px;
+    padding-left: 20px;
+  }
+
+  .modal-cards-list {
+    gap: 20px;
+  }
+
+  .modal-card-img {
+    width: 243px;
+    height: 200px;
+    top: 94px;
+    right: 7px;
+    left: 7px;
+    bottom: 14px;
+  }
+
+  .modal-card-header {
+    margin-bottom: 8px;
+  }
+}
