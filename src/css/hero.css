@@ -50,6 +50,7 @@
   position: absolute;
   left: 84px;
   z-index: 3;
+  padding: 11px 0;
 }
 
 .hero-pics {
@@ -59,31 +60,25 @@
 }
 .hero-item-text {
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 10px;
   text-transform: uppercase;
   padding-bottom: 22px;
 }
 
 .hero-item-span {
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 8px;
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: 400;
+  text-transform: lowercase;
   line-height: 10px;
   padding-bottom: 10px;
 }
 .hero-title {
   color: var(--white-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 40px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   line-height: 44px;
@@ -101,9 +96,7 @@
 
 .hero-text {
   color: var(--white-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 14px;
-  font-family: DM Sans;
   font-style: normal;
   line-height: 18px;
   letter-spacing: -0.01em;
@@ -149,7 +142,6 @@
   border-radius: 1000px;
   border: 1px solid var(--white-text-color);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 10px;
   font-style: normal;
   font-weight: 500;
@@ -200,35 +192,30 @@
 
   .hero-item:nth-child(4) {
     left: 102px;
+    padding: 11px 0;
   }
 
   .hero-item-text {
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 18px;
-    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 14px;
     letter-spacing: -0.72px;
     text-transform: uppercase;
   }
 
   .hero-item-span {
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 10px;
-    font-family: DM Sans;
-    font-style: normal;
+    text-transform: lowercase;
     line-height: 12px;
     letter-spacing: -0.4px;
   }
 
   .hero-title {
     color: var(--white-text-color);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 54px;
-    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     line-height: 64px;
@@ -242,9 +229,7 @@
   .hero-text {
     width: 490px;
     color: var(--white-text-color);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 14px;
-    font-family: DM Sans;
     font-style: normal;
     line-height: 18px;
     letter-spacing: -0.56px;
@@ -254,7 +239,6 @@
     height: 114px;
     width: 114px;
     font-size: 24px;
-    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -280,9 +264,7 @@
   .hero-navigation-link {
     padding: 9px 19px;
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 12px;
-    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
@@ -325,35 +307,29 @@
 
   .hero-item:nth-child(4) {
     left: 132px;
+    padding: 16px 0;
   }
 
   .hero-item-text {
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 24px;
-    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 18px;
     letter-spacing: -0.96px;
     text-transform: uppercase;
   }
 
   .hero-item-span {
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 12px;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: 400;
+    text-transform: lowercase;
     line-height: 14px;
     letter-spacing: -0.48px;
   }
 
   .hero-title {
     color: var(--white-text-color);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 64px;
-    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     line-height: 75px;
@@ -367,9 +343,7 @@
   .hero-text {
     width: 491px;
     color: var(--white-text-color);
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 14px;
-    font-family: DM Sans;
     font-style: normal;
     line-height: 18px;
     letter-spacing: -0.56px;
@@ -380,7 +354,6 @@
     width: 132px;
     text-align: center;
     font-size: 28px;
-    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
@@ -410,9 +383,7 @@
 
   .hero-navigation-link {
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 12px;
-    font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
