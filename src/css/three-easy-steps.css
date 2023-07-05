@@ -1,5 +1,6 @@
 .how-it-works {
     margin: auto;
+    max-width: 375px;
 }
 
 .order-instruction {
@@ -7,10 +8,20 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    margin: 20px;
+    margin: 0 20px;
     background-color: var(--background-secondary-color);
-    background-image: url(../img/background-dots-img-1-tab-1x.png);
+    background-image: url(../img/background-dots-img-1-mob-1x.png);
     border-radius: 40px;
+    background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .order-instruction {
+        background-image: url(../img/background-dots-img-1-mob-2x.png);
+        background-repeat: no-repeat;
+    }
 }
 
 .order-instruction-cont {
@@ -96,7 +107,7 @@
 
 @media screen and (min-width: 768px) {
     .instruction {
-        min-width: 768px;
+        max-width: 768px;
     }
 
     .order-instruction {
@@ -108,6 +119,14 @@
         gap: 40px;
         background-image: url(../img/background-dots-img-1-tab-1x.png);
         border-radius: 80px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order-instruction {
+            background-image: url(../img/background-dots-img-1-tab-2x.png);
+        }
     }
 
     .order-instruction-cont {
@@ -130,23 +149,32 @@
 
     .order-instruction-girl-pic {
         position: relative;
-        top: 36px;
+        top: 88px;
         left: 0;
     }
 }
 
 
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .instruction {
         max-width: 1280px;
     }
 
     .order-instruction {
+        height: 460px;
         display: flex;
         justify-content: space-between;
         margin: 24px 32px 124px 32px;
         background-image: url(../img/background-dots-img-1-1x.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order-instruction {
+            background-image: url(../img/background-dots-img-1-2x.png);
+        }
     }
 
     .order-instruction-header {
@@ -169,7 +197,7 @@
 
     .order-instruction-girl-pic {
         position: relative;
-        top: 68px;
+        top: 40px;
         left: 80px;
     }
 
