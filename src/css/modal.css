@@ -277,6 +277,15 @@
     }
   }
 
+  .modal-form-header {
+    font-size: 40px;
+  }
+
+  .modal-close-btn {
+    width: 28px;
+    height: 28px;
+  }
+
   .modal-card {
     width: 257px;
     height: 308px;
@@ -298,5 +307,11 @@
 
   .modal-card-header {
     margin-bottom: 8px;
+    font-size: 24px;
+  }
+
+  .modal-form-fake-checkbox {
+    width: 20px;
+    height: 20px;
   }
 }
