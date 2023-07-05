@@ -361,7 +361,7 @@
   .hero-picture-main {
     position: absolute;
     top: 127px;
-    left: 733px;
+    right: 0;
     width: 515px;
     height: 423px;
     margin: 0;
