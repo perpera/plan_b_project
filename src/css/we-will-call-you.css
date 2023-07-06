@@ -33,10 +33,8 @@
 }
 
 .form-cta {
-  /* height: 48px; */
   display: flex;
   width: 100%;
-  /* align-items: center; */
   border-radius: 100px;
 }
 
@@ -111,7 +109,6 @@
 
 @media screen and (min-width: 768px) {
   .cta {
-    /* display: block; */
     padding-top: 100px;
     padding-bottom: 173px;
   }
@@ -124,15 +121,12 @@
   .cta-text {
     font-size: 18px;
     line-height: 1.33;
+    width: 499px;
   }
 
   .form-cta {
     max-width: 350px;
   }
-
-  /* .cta-phone-input {
-    width: 250px;
-  } */
 
   .col-right {
     display: flex;
@@ -142,18 +136,12 @@
 
   .col-left {
     max-width: 524px;
-    margin: 0 auto;
     padding-left: 0px;
     padding-right: 0px;
   }
 
   .cta-phone-input {
     min-width: 274px;
-  }
-
-  .cta-text {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 
@@ -176,17 +164,15 @@
   }
 
   .cta-text {
+    width: 523px;
     margin-bottom: 80px;
     text-align: left;
     padding-left: 0;
-    padding-right: 80px;
   }
 
   .col-left {
     max-width: 614px;
     align-items: flex-start;
-    padding-left: 0px;
-    /* padding-right: 80px; */
   }
 
   .col-right {
