@@ -38,3 +38,7 @@
 
 /** MODAL */
 @import url('./modal.css');
+
+html {
+  scroll-behavior: smooth;
+}
